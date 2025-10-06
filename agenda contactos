@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Agendas [
+<!ELEMENT Agendas (Agenda+)>
+<!ELEMENT Agenda (nombre, apellido, compania, telefono, adreza, ID)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellido (#PCDATA)>
+<!ELEMENT compania (puesto-trabajo, email)>
+<!ELEMENT puesto-trabajo (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT adreza (region, calle, codi-postal, ciudad)>
+<!ELEMENT region (#PCDATA)>
+<!ELEMENT calle (#PCDATA)>
+<!ELEMENT codi-postal (#PCDATA)>
+<!ELEMENT ciudad (#PCDATA)>
+<!ELEMENT ID (#PCDATA)>
+]>
+
+<Agendas>
+    <Agenda>
+        <nombre>Santiago</nombre>
+        <apellido>Salserin</apellido>
+        <compania>
+            <puesto-trabajo>Fontanero</puesto-trabajo>
+            <email>1234@gmail.com</email>
+        </compania>
+        <telefono>123456789</telefono>
+        <adreza>
+            <region>España</region>
+            <calle>Machupichu</calle>
+            <codi-postal>08034</codi-postal>
+            <ciudad>Matalascañas</ciudad>
+        </adreza>
+        <ID>48481171T</ID>
+    </Agenda>
+
+    <Agenda>
+        <nombre>Laura</nombre>
+        <apellido>García</apellido>
+        <compania>
+            <puesto-trabajo>carpintero</puesto-trabajo>
+            <email>laura.garcia@example.com</email>
+        </compania>
+        <telefono>612345678</telefono>
+        <adreza>
+            <region>España</region>
+            <calle>Gran Vía 45</calle>
+            <codi-postal>28013</codi-postal>
+            <ciudad>Madrid</ciudad>
+        </adreza>
+        <ID>73928461P</ID>
+    </Agenda>
+
+    <Agenda>
+        <nombre>Carlos</nombre>
+        <apellido>Ruiz</apellido>
+        <compania>
+            <puesto-trabajo>Policia</puesto-trabajo>
+            <email>carlos.ruiz@example.com</email>
+        </compania>
+        <telefono>698745632</telefono>
+        <adreza>
+            <region>España</region>
+            <calle>Avenida del Puerto 12</calle>
+            <codi-postal>46023</codi-postal>
+            <ciudad>Valencia</ciudad>
+        </adreza>
+        <ID>51487236M</ID>
+    </Agenda>
+
+    <Agenda>
+        <nombre>María</nombre>
+        <apellido>López</apellido>
+        <compania>
+            <puesto-trabajo>Limpiadora</puesto-trabajo>
+            <email>maria.lopez@example.com</email>
+        </compania>
+        <telefono>677554433</telefono>
+        <adreza>
+            <region>España</region>
+            <calle>Calle de las Flores 8</calle>
+            <codi-postal>29010</codi-postal>
+            <ciudad>Málaga</ciudad>
+        </adreza>
+        <ID>83492147J</ID>
+    </Agenda>
+
+    <Agenda>
+        <nombre>Javier</nombre>
+        <apellido>Martín</apellido>
+        <compania>
+            <puesto-trabajo>Bombero</puesto-trabajo>
+            <email>javier.martin@example.com</email>
+        </compania>
+        <telefono>699882211</telefono>
+        <adreza>
+            <region>España</region>
+            <calle>Calle del Sol 23</calle>
+            <codi-postal>41003</codi-postal>
+            <ciudad>Sevilla</ciudad>
+        </adreza>
+        <ID>24819765F</ID>
+    </Agenda>
+
+    <Agenda>
+        <nombre>Ana</nombre>
+        <apellido>Serrano</apellido>
+        <compania>
+            <puesto-trabajo>programadora</puesto-trabajo>
+            <email>ana.serrano@example.com</email>
+        </compania>
+        <telefono>665432190</telefono>
+        <adreza>
+            <region>España</region>
+            <calle>Paseo de la Castellana 100</calle>
+            <codi-postal>28046</codi-postal>
+            <ciudad>Madrid</ciudad>
+        </adreza>
+        <ID>91247658Q</ID>
+    </Agenda>
+
+    <Agenda>
+        <nombre>Pedro</nombre>
+        <apellido>Morales</apellido>
+        <compania>
+            <puesto-trabajo>Albanyil</puesto-trabajo>
+            <email>pedro.morales@example.com</email>
+        </compania>
+        <telefono>677221900</telefono>
+        <adreza>
+            <region>España</region>
+            <calle>Rambla Nova 32</calle>
+            <codi-postal>43003</codi-postal>
+            <ciudad>Tarragona</ciudad>
+        </adreza>
+        <ID>47592038K</ID>
+    </Agenda>
+
+    <Agenda>
+        <nombre>Isabel</nombre>
+        <apellido>Campos</apellido>
+        <compania>
+            <puesto-trabajo>Cirujana</puesto-trabajo>
+            <email>isabel.campos@example.com</email>
+        </compania>
+        <telefono>698102030</telefono>
+        <adreza>
+            <region>España</region>
+            <calle>Calle Mayor 15</calle>
+            <codi-postal>30003</codi-postal>
+            <ciudad>Murcia</ciudad>
+        </adreza>
+        <ID>85642917R</ID>
+    </Agenda>
+
+    <Agenda>
+        <nombre>David</nombre>
+        <apellido>Navarro</apellido>
+        <compania>
+            <puesto-trabajo>granjero</puesto-trabajo>
+            <email>david.navarro@example.com</email>
+        </compania>
+        <telefono>611443322</telefono>
+        <adreza>
+            <region>España</region>
+            <calle>Calle Aragón 78</calle>
+            <codi-postal>08009</codi-postal>
+            <ciudad>Barcelona</ciudad>
+        </adreza>
+        <ID>92157864V</ID>
+    </Agenda>
+
+    <Agenda>
+        <nombre>Lucía</nombre>
+        <apellido>Fernández</apellido>
+        <compania>
+            <puesto-trabajo>Profesora</puesto-trabajo>
+            <email>lucia.fernandez@example.com</email>
+        </compania>
+        <telefono>622998877</telefono>
+        <adreza>
+            <region>España</region>
+            <calle>Avenida de Galicia 3</calle>
+            <codi-postal>15004</codi-postal>
+            <ciudad>A Coruña</ciudad>
+        </adreza>
+        <ID>38472159L</ID>
+    </Agenda>
+</Agendas> 
+
